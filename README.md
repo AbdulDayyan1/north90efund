@@ -1,7 +1,3 @@
-For your README file, here’s a suggested structure based on the content you've provided for your website:
-
----
-
 # TechSphere - Innovate. Build. Grow.
 
 Welcome to **TechSphere**, where innovation meets excellence. We are dedicated to building cutting-edge solutions that empower businesses to thrive in the digital era. Explore our services, projects, and meet the passionate team behind TechSphere.
