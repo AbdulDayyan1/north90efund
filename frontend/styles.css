@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .collapsible-menu h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .list-group-item a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .list-group-item a:hover {
+    color: #007bff;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Services Section Styles */
+.service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  /* Projects Section Styles */
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  .project-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  /* Team Section Styles */
+.team-card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  .team-card img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+  }
+  
+  /* Contact Form Enhancements */
+#contact .form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+  }
+  
+  #contact .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  #contact button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact h2, #contact p {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  #contact .form-label {
+    font-weight: bold;
+  }
+  /* Add this to your styles.css or inside a <style> tag */
+
+body {
+    padding-bottom: 60px; /* Adjust this value if necessary */
+  }
+  
+  footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .collapsible-menu {
+      display: none;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+   
